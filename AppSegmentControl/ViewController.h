@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentOutlet;
+- (IBAction)segmentedControl:(id)sender;
+
 
 @end
 
